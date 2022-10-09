@@ -1,5 +1,5 @@
 import java.util.*;
-class String {
+class string {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
@@ -18,5 +18,6 @@ class String {
         else{
            System.out.println("1"); 
         }
+        sc.close();
     }
 }
